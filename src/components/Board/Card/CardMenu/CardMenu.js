@@ -38,7 +38,7 @@ const CardMenu = ({
             onClose={handleClose}
             anchorEl={document.getElementsByTagName("body")[0]}
           >
-            <span tabIndex={0}>
+            <span>
               <CardMenuMoveItem
                 groups={groups}
                 selectedCard={selectedCard}
