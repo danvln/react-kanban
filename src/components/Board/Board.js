@@ -1,8 +1,8 @@
 // @flow
 import React, { useState, useEffect } from "react";
 import { DragDropContext, Droppable } from "react-beautiful-dnd";
-import type { DropResult, DroppableProvided } from "react-beautiful-dnd";
 import { cloneDeep } from "lodash";
+import type { DropResult, DroppableProvided } from "react-beautiful-dnd";
 import type { GroupType, CardType, CardLocationType } from "../../types";
 import Column from "./Column/Column";
 import CardMenu from "./Card/CardMenu";

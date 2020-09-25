@@ -19,15 +19,7 @@ class BoardLib extends Component {
 
     return (
       <>
-        <Board
-          className="o2xp-react-kanban"
-          groups={groups}
-          locked={locked}
-          updatedDatas={updatedDatas}
-          columnsWidth={columnsWidth}
-          cardsHeight={cardsHeight}
-          columnsAction={columnsAction}
-        />
+        <Board className="o2xp-react-kanban" {...this.props} />
       </>
     );
   }

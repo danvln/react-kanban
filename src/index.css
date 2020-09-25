@@ -1,4 +1,3 @@
-
 .card-menu .MuiMenu-list {
   padding-bottom: 0px;
   padding-top: 0px;
@@ -27,12 +26,12 @@
 }
 
 .MuiCardHeader-root.card-header .card-menu-button{
-  margin: 5px 0 
+  margin: 5px 0;
 }
 
 .board {
   display: inline-flex;
-  margin: 10px
+  margin: 10px;
 
 }
 
